@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;700&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+.navbar-collapse {
+  flex-grow: 0 !important;
+}
+
+.navbar-toggler {
+  background-color: #c4c9cf !important;
+}
+
+.navbar-toggler:hover {
+  background-color: #ffb03b !important;
+
+}
+
+.fixed-top {
+  background: rgba(26, 24, 22, 0.85);
+}
+
+.Logo {
+  font-family: "Satisfy", sans-serif !important;
+  font-size: 2rem !important;
+  margin: 0 !important;
+  line-height: 1 !important;
+  font-weight: 400 !important;
+  letter-spacing: 3px !important;
+  transition: 0.3s all;
+
+}
+
+.me-auto a {
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+  padding: 10px 20px;
+  color: white !important;
+  font-weight: 500;
+
+}
+
+.Logo:hover {
+  color: #ffb03b !important;
+}
+
+.me-auto a:hover {
+  color: #ffb03b !important;
+}
+
+.carousel-1 {
+  position: absolute !important;
+  bottom: 0 !important;
+  top: 0 !important;
+  left: 0 !important;
+  right: 0 !important;
+  height: 600px !important;
+  opacity: 0.9;
+}
+
+.carousel-image {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 621px;
+}
+
+.caption {
+  margin-bottom: 150px;
+}
+
+.caption .display-2 {
+  font-family: "Satisfy", sans-serif !important;
+}
+
+.para {
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+
+}
+
+
+.carousel-1 .btn-menu,
+.carousel-1 .btn-book {
+  font-weight: 600;
+  font-size: 13px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  display: inline-block;
+  padding: 12px 30px;
+  border-radius: 50px;
+  transition: 0.5s;
+  line-height: 1;
+  margin: 0 10px;
+  animation-delay: 0.8s;
+  color: #fff;
+  border: 2px solid #ffb03b;
+  text-decoration: none;
+  text-align: center;
+}
+
+.carousel-1 .btn-menu:hover {
+  background: #ffb03b;
+  color: #fff !important;
+}
+
+.carousel-1 .btn-book:hover {
+  background: #ffb03b;
+  color: #fff !important;
+}
+
+
+/* contact us */
+
+
+
+
+.me-auto .link {
+  text-decoration: none !important;
+}
